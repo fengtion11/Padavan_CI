@@ -27,11 +27,11 @@ on:
         description: 'whether to notify through pushplus'
         default: 'false'
 env:
-  REPOSITORY_URL: https://github.com/fengtion11/Padavan-KVR.git
+  REPOSITORY_URL: https://github.com/vb1980/Padavan-KVR.git
   TOOLCHAIN_URL: https://github.com/hanwckf/padavan-toolchain/releases/download/v1.1/mipsel-linux-uclibc.tar.xz
   WORK_PATH: /opt/rt-n56u
   TIME_ZONE: Asia/Shanghai
-  TARGET_NAME: HC5962
+  TARGET_NAME: NEWIFI-MINI
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
   FIRMWARE_AUTHOR: xxr
   FIRMWARE_PATH: /opt/firmwares
