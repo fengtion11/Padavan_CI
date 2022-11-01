@@ -6,7 +6,7 @@ on:
       firmwarever:
         description: 'firmware''s version'
         required: true
-        default: '20221026'
+        default: '20221101'
       busyboxver:
         type: choice
         description: 'busybox''s version'
